@@ -1,0 +1,20 @@
+from turtle import shape, fd, left, right, exitonclick
+from math import sqrt
+
+shape('turtle')
+fd(200)
+left(90)
+fd(200)
+left(45)
+fd(sqrt(200 * 200 * 2) / 2)
+left(90)
+fd(sqrt(200 * 200 * 2) / 2)
+left(135)
+fd(200)
+right(135)
+fd(sqrt(200 * 200 * 2))
+right(135)
+fd(200)
+right(135)
+fd(sqrt(200 * 200 * 2))
+exitonclick()
